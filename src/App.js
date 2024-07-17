@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import AdminHome from "./component/pages/AdminHome";
+import UserPage from "./component/pages/UserPage";
+import MoviesDetails from "./component/pages/MoviesDetails";
+import Navbar from "./component/Navbar/Navbar";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let role = "user";
+
+  if (role == "user") {
+    return (
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<UserPage />} />
+          <Route path="/:id" element={<MoviesDetails />} />
+        </Routes>
+      </>
+    )
+  }
+
+  if (role == "admin") {
+    return (
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<AdminHome />} />
+        </Routes>
+      </>
+    );
+  }
 }
 
 export default App;

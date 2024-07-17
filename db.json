@@ -1,0 +1,29 @@
+{
+  "movies": [
+    {
+      "id": "1313",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC43LzEwICA2NDkuOEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00352941-qdafpgypxr-portrait.jpg",
+      "name": "Kalki 2898 AD",
+      "genres": "Action/Sci-Fi/Thriller",
+      "cast": "Prabhas,Dipika",
+      "language": "Hindi,english,telugu",
+      "date": "27/6/2024",
+      "duration": "3h 1m",
+      "screen": "2D, 3D, IMAX 3D",
+      "rating": "8.7",
+      "": "8.50"
+    },
+    {
+      "id": "d334",
+      "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-Mjg5LjlLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00341295-ayyygulgvn-portrait.jpg",
+      "name": "deadpool & wolverine",
+      "genres": "action",
+      "cast": "ryan",
+      "language": "english",
+      "date": "2024-07-25",
+      "duration": "3h",
+      "screen": "2d,3d",
+      "rating": "10"
+    }
+  ]
+}
